@@ -6,7 +6,7 @@ x = dividendo
 
 while x >= divisor:
     x -= divisor
-    quociente = quociente + 1
+    quociente += 1
     resto = x
 
 print(f'{dividendo} / {divisor} = {quociente} (resto = {resto})')
