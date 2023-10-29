@@ -17,8 +17,10 @@ while True:
     elif codigo == 9:
         preço = 8.00
     else:
-        print("ERRO! código inválido!")
+        print('ERRO! código inválido!')
 
     if preço != 0:
         quantidade = int(input('Quantidade: '))
         total = total + (preço * quantidade)
+
+print(f'Total a pagar R${total:.2f}')
